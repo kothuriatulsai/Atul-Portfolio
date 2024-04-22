@@ -1,0 +1,78 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #CB9D06;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #a47905;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #CB9D06;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Styles for About section */
+#about {
+    margin-top: 30px;
+}
+
+#about h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content img {
+    width: 200px;
+    border-radius: 25%;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}

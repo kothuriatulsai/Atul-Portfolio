@@ -1,0 +1,57 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #CB9D06;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #CB9D06;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #F4E4C1;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #333333;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666666;
+}
